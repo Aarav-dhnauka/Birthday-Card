@@ -11,7 +11,9 @@ body {
   perspective: 800px;
   overflow: hidden;
 }
-
+audio{
+  width: 10px;
+}
 .envelope {
   z-index: 2;
   position: absolute;
@@ -81,9 +83,9 @@ body {
 }
 
 .envelope .back .letter p {
-  font-size: 30px;
+  font-size: 20px;
   line-height: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   color: #ff969f;
 }
 
@@ -405,7 +407,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 0;
+  bottom: 1000;
   left: 0;
   margin: auto;
   width: 200px;
@@ -466,7 +468,7 @@ body {
   margin-left: -3.3333333333px;
   width: 6.6666666667px;
   height: 20.5px;
-  animation: fire 2s infinite;
+  animation: fire 4s infinite;
 }
 
 @keyframes fire {
